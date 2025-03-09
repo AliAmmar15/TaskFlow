@@ -1,0 +1,6 @@
+com/taskflow/model/Task.class
+com/taskflow/Main.class
+com/taskflow/ui/TaskFlowGUI.class
+com/taskflow/model/Task$Priority.class
+com/taskflow/analytics/TaskAnalytics.class
+com/taskflow/logic/TaskManager.class

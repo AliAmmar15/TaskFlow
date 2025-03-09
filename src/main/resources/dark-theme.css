@@ -1,0 +1,147 @@
+/* Overall background and text color */
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: #cfcfcf;
+}
+
+/* Table view styles */
+.table-view {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: #cfcfcf;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #3d3d3d;
+}
+
+.table-view .filler {
+    -fx-background-color: #2d2d2d;
+}
+
+.table-row-cell {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: #cfcfcf;
+}
+
+.table-row-cell:filled:selected, .table-row-cell:filled:selected:hover {
+    -fx-background-color: #5a5a5a;
+}
+
+.table-cell {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: #cfcfcf;
+    -fx-border-color: #3d3d3d;
+}
+
+/* Button styles */
+.button {
+    -fx-background-color: #3d3d3d;
+    -fx-text-fill: #cfcfcf;
+    -fx-border-color: #4d4d4d;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+.button:hover {
+    -fx-background-color: #4d4d4d;
+}
+
+.button:pressed {
+    -fx-background-color: #5a5a5a;
+}
+
+/* Text field and text area styles */
+.text-field, .text-area {
+    -fx-background-color: #3d3d3d;
+    -fx-text-fill: #cfcfcf;
+    -fx-border-color: #4d4d4d;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+.text-field:focused, .text-area:focused {
+    -fx-border-color: #6a6a6a;
+}
+
+/* Label styles */
+.label {
+    -fx-text-fill: #cfcfcf;
+}
+
+/* CheckBox styles */
+.check-box {
+    -fx-text-fill: #cfcfcf;
+}
+
+.check-box .box {
+    -fx-background-color: #3d3d3d;
+    -fx-border-color: #4d4d4d;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #5a5a5a;
+}
+
+/* Pie chart styles */
+.pie-chart {
+    -fx-text-fill: #cfcfcf;
+}
+
+/* ComboBox styles */
+.combo-box {
+    -fx-background-color: #3d3d3d;
+    -fx-text-fill: #cfcfcf;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #3d3d3d;
+    -fx-text-fill: #cfcfcf;
+}
+
+.combo-box .list-cell:filled:selected, .combo-box .list-cell:filled:selected:hover {
+    -fx-background-color: #5a5a5a;
+}
+
+/* Tooltip styles */
+.tooltip {
+    -fx-background-color: #3d3d3d;
+    -fx-text-fill: #cfcfcf;
+    -fx-border-color: #4d4d4d;
+}
+
+/* Scrollbar styles */
+.scroll-bar {
+    -fx-background-color: #3d3d3d;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #5a5a5a;
+}
+
+.scroll-bar:vertical .track-background, .scroll-bar:horizontal .track-background {
+    -fx-background-color: #2d2d2d;
+}
+
+/* Menu styles */
+.menu {
+    -fx-background-color: #3d3d3d;
+    -fx-text-fill: #cfcfcf;
+}
+
+.menu-item {
+    -fx-background-color: #3d3d3d;
+    -fx-text-fill: #cfcfcf;
+}
+
+.menu-item:selected {
+    -fx-background-color: #5a5a5a;
+}
+
+/* Context menu styles */
+.context-menu {
+    -fx-background-color: #3d3d3d;
+    -fx-text-fill: #cfcfcf;
+    -fx-border-color: #4d4d4d;
+}
